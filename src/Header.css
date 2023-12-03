@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+header{
+    min-width: 100%;
+    overflow: hidden
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    color: #000;
+    font-family: 'Monda';
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 12px;}
+
+.bubble-container {
+    position: absolute;
+    /* top: -150px; */
+  }
+  
+  .bubble {
+    border-radius: 50%;
+      background: #ACD4E1;
+      width: 525.729px;
+      height: 252px;
+      flex-shrink: 0;
+    /* Add other styles as needed */
+  }
+
+ .design{
+    
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    background: #ACD4E1;
+      
+}
+.circle-1{
+    top: -35%;
+}
+.circle-2{
+    top: -35%;
+    left: 35%;
+
+}
+.design2{
+    
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    background: #C8E3EC;
+      
+}
+.circle-3{
+    top: -20%;
+    rotate: calc(10deg);
+}
+.circle-4{
+    top: -28%;
+    left: 35%;
+
+} 
+@media screen and (max-width: 436px){
+    .design{
+        width: 100%;
+    }
+    .circle-1{
+        left: 0%;
+        rotate: calc(10deg);
+    }
+    .circle-2{
+        left: 30%;
+        top: -25%;
+        rotate: calc(10deg);
+    }
+    .design2{
+        width: 100%;
+    }
+    .circle-3{
+        left: 0%;
+        top: -25%;
+        rotate: calc(10deg);
+    }
+    .circle-4{
+        left: 30%;
+        top: -15%;
+        rotate: calc(10deg);
+    }
+}

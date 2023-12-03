@@ -1,0 +1,49 @@
+.title_input input{ 
+  margin-top: 90px;
+  border: 1px solid transparent;
+  width: 70rem;
+  height: 41px;
+  background-color: #A8D2A5;
+  outline: none;
+  padding-left: 15px;
+  color: #3E3B3B;
+  font-family: Monda;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title_input textarea{
+  border: 1px solid transparent;
+  width: 70rem;
+  min-height: 41px;
+  background-color: #A8D2A5;
+  outline: none;
+  padding-left: 15px;
+  color: #3E3B3B;
+  font-family: Monda;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.1s;
+}
+
+.body button{
+  margin-top: 80px;
+  width: 290px;
+  height: 61px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #A8D2A5 0%, #ACD4E1 115.2%);
+  box-shadow: 0px 4px 4px 0px #ACD4E1;
+  transition: background 0.5s ease;
+
+}
+.body button:active{
+  border: none;
+  transition: 0.5s;
+  transform: scale(0.9) !important;
+
+  
+}

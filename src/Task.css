@@ -1,0 +1,52 @@
+.task_listing button{
+    border: none
+}
+.done_status{
+    color: #C4C4C4 !important;
+    font-family: Monda !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    text-decoration-line: line-through !important;
+}
+.no_desc_d{
+    color:#C4C4C4;
+    font-family: Monda;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.no_desc{
+    color:#757474;
+    font-family: Monda;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.task_desc {
+    word-wrap: break-word;
+  }
+  .date{
+    font-family: Monda;
+    font-style: normal;
+    font-weight: 400;
+  }
+.btns button{
+    border: none;
+}
+.tasks_line{
+    background: #3E3B3B;
+    width: 92%;
+    height: 3px;
+}
+.task_desc{
+    color: #3E3B3B;
+    font-family: Monda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.t-box{
+    width: 100%;
+    
+}
